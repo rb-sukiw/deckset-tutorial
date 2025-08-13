@@ -1,0 +1,14 @@
+{
+  "name": "network-analysis-presentation",
+  "version": "1.0.0",
+  "description": "Network Analysis in Organizations - Slidev Presentation",
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.48.0",
+    "@slidev/theme-default": "latest"
+  }
+}
