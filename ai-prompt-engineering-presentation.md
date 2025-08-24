@@ -119,6 +119,363 @@ Course Structure:
 
 ---
 layout: top-title
+color: emerald-light
+align: c
+---
+
+:: title ::
+
+# 🏢 Big Tech is Already Here
+
+:: content ::
+
+<div class="text-center mb-6">
+  <div class="text-lg font-semibold text-gray-600">Leading companies are transforming work with AI</div>
+</div>
+
+<div class="grid grid-cols-4 gap-6 mt-8">
+  <div class="text-center p-4 bg-white rounded-lg shadow-lg">
+    <div style="width: 60px; height: 60px; background: #4285F4; border-radius: 12px; margin: 0 auto 12px; display: flex; align-items: center; justify-content: center;">
+      <span style="color: white; font-weight: bold; font-size: 24px;">G</span>
+    </div>
+    <div class="text-sm font-semibold">Google</div>
+    <div class="text-xs text-gray-500">Bard + Workspace</div>
+  </div>
+  
+  <div class="text-center p-4 bg-white rounded-lg shadow-lg">
+    <div style="width: 60px; height: 60px; background: #00A4EF; border-radius: 12px; margin: 0 auto 12px; display: flex; align-items: center; justify-content: center;">
+      <span style="color: white; font-weight: bold; font-size: 20px;">MS</span>
+    </div>
+    <div class="text-sm font-semibold">Microsoft</div>
+    <div class="text-xs text-gray-500">Copilot Ecosystem</div>
+  </div>
+  
+  <div class="text-center p-4 bg-white rounded-lg shadow-lg">
+    <div style="width: 60px; height: 60px; background: #412991; border-radius: 12px; margin: 0 auto 12px; display: flex; align-items: center; justify-content: center;">
+      <span style="color: white; font-weight: bold; font-size: 20px;">AI</span>
+    </div>
+    <div class="text-sm font-semibold">OpenAI</div>
+    <div class="text-xs text-gray-500">ChatGPT Enterprise</div>
+  </div>
+  
+  <div class="text-center p-4 bg-white rounded-lg shadow-lg">
+    <div style="width: 60px; height: 60px; background: #1877F2; border-radius: 12px; margin: 0 auto 12px; display: flex; align-items: center; justify-content: center;">
+      <span style="color: white; font-weight: bold; font-size: 20px;">M</span>
+    </div>
+    <div class="text-sm font-semibold">Meta</div>
+    <div class="text-xs text-gray-500">Llama + AI Agents</div>
+  </div>
+</div>
+
+<div class="text-center mt-6 text-lg font-semibold text-gray-700">
+  💡 These aren't future plans - they're deployed at scale today
+</div>
+
+---
+layout: two-cols-title
+columns: is-6
+align: c-lt-lt
+color: blue-light
+---
+
+:: title ::
+
+# 🚀 Google's AI Revolution
+
+:: left ::
+
+<div class="mb-6">
+  <div style="width: 80px; height: 80px; background: #4285F4; border-radius: 16px; margin: 0 auto 16px; display: flex; align-items: center; justify-content: center;">
+    <span style="color: white; font-weight: bold; font-size: 32px;">G</span>
+  </div>
+</div>
+
+**Real Impact:**
+- 🔍 **Search**: 15% of daily queries are AI-generated
+- 📧 **Gmail**: 60% productivity boost in email composition
+- 📊 **Workspace**: Smart suggestions in Docs, Sheets
+- 💻 **Code**: 55% faster development with AI assistance
+
+:: right ::
+
+<div class="bg-blue-50 p-6 rounded-lg">
+  <div class="text-xl font-bold text-blue-800 mb-4">📈 LLMOps at Scale</div>
+  
+  ```
+  Prompt Engineering Pipeline:
+  
+  1. Intent Detection
+     └── Multi-model routing
+  
+  2. Context Injection  
+     └── Dynamic RAG systems
+     
+  3. Response Generation
+     └── Safety + Quality filters
+     
+  4. Continuous Learning
+     └── User feedback loops
+  ```
+  
+  <div class="text-sm text-blue-600 mt-4">
+    <strong>Key Insight:</strong> Google processes 8.5 billion searches daily with AI-enhanced prompting
+  </div>
+</div>
+
+---
+layout: two-cols-title
+columns: is-6
+align: c-lt-lt
+color: indigo-light
+---
+
+:: title ::
+
+# 💼 Microsoft's Copilot Empire
+
+:: left ::
+
+<div class="mb-6">
+  <div style="width: 80px; height: 80px; background: #00A4EF; border-radius: 16px; margin: 0 auto 16px; display: flex; align-items: center; justify-content: center;">
+    <span style="color: white; font-weight: bold; font-size: 28px;">MS</span>
+  </div>
+</div>
+
+**Enterprise Transformation:**
+- 💻 **GitHub Copilot**: 55% faster coding
+- 📝 **M365 Copilot**: 70% time saved on documents
+- 🔐 **Security Copilot**: 40% faster threat analysis
+- ⚡ **Power Platform**: Citizen developers create apps with prompts
+
+:: right ::
+
+<div class="bg-indigo-50 p-6 rounded-lg">
+  <div class="text-xl font-bold text-indigo-800 mb-4">🏗️ Prompt Architecture</div>
+  
+  ```
+  Microsoft's Approach:
+  
+  System → Context → Examples → Task
+     ↓        ↓        ↓       ↓
+  "You are   User     Few     "Generate
+   a coding  session  shot    the sales
+   expert"   data     demos   report"
+  
+  Safety Layer: Content filtering
+  Performance: Sub-200ms response
+  Scale: 100M+ users daily
+  ```
+  
+  <div class="text-sm text-indigo-600 mt-4">
+    <strong>Business Impact:</strong> $10B+ revenue from AI products in 2024
+  </div>
+</div>
+
+---
+layout: two-cols-title
+columns: is-6
+align: c-lt-lt
+color: purple-light
+---
+
+:: title ::
+
+# 🧠 OpenAI's Enterprise Revolution
+
+:: left ::
+
+<div class="mb-6">
+  <div style="width: 80px; height: 80px; background: #412991; border-radius: 16px; margin: 0 auto 16px; display: flex; align-items: center; justify-content: center;">
+    <span style="color: white; font-weight: bold; font-size: 24px;">AI</span>
+  </div>
+</div>
+
+**ChatGPT Enterprise Impact:**
+- 🏢 **Fortune 500**: 80% are customers
+- 📈 **Productivity**: 4x faster analysis tasks  
+- 🎯 **Custom GPTs**: 100,000+ specialized models
+- 🔒 **Security**: Enterprise-grade deployment
+
+:: right ::
+
+<div class="bg-purple-50 p-6 rounded-lg">
+  <div class="text-xl font-bold text-purple-800 mb-4">⚙️ Prompt Engineering Best Practices</div>
+  
+  ```
+  OpenAI's Framework:
+  
+  1. Clear Instructions
+     "Act as a [role] to [task]"
+  
+  2. Provide Context  
+     Include relevant background
+     
+  3. Use Examples
+     Show desired output format
+     
+  4. Iterative Refinement
+     Test → Analyze → Improve
+  ```
+  
+  <div class="text-sm text-purple-600 mt-4">
+    <strong>Success Metric:</strong> 92% of users report significant productivity gains
+  </div>
+</div>
+
+---
+layout: two-cols-title
+columns: is-6
+align: c-lt-lt
+color: green-light
+---
+
+:: title ::
+
+# 🦙 Meta's Open Source Strategy
+
+:: left ::
+
+<div class="mb-6">
+  <div style="width: 80px; height: 80px; background: #1877F2; border-radius: 16px; margin: 0 auto 16px; display: flex; align-items: center; justify-content: center;">
+    <span style="color: white; font-weight: bold; font-size: 28px;">M</span>
+  </div>
+</div>
+
+**Llama Impact:**
+- 🚀 **Open Source**: 200M+ downloads of Llama models
+- 💬 **WhatsApp**: AI assistants for 2B+ users
+- 🎯 **Instagram**: Content generation & moderation
+- 🔬 **Research**: Advancing multimodal AI capabilities
+
+:: right ::
+
+<div class="bg-green-50 p-6 rounded-lg">
+  <div class="text-xl font-bold text-green-800 mb-4">🧠 Prompt Strategy</div>
+  
+  ```
+  Meta's Multi-Agent Framework:
+  
+  Content Creation:
+  "Generate post variations for
+   different audiences:
+   - Gen Z: casual, emoji-heavy
+   - Professional: formal tone
+   - Brand voice: [company style]"
+   
+  Safety Filtering:
+  System prompts filter harmful content
+  before user interaction
+  ```
+  
+  <div class="text-sm text-green-600 mt-4">
+    <strong>Scale Impact:</strong> Processing 100B+ messages daily with AI assistance
+  </div>
+</div>
+
+---
+layout: two-cols-title
+columns: is-6
+align: c-lt-lt
+color: orange-light
+---
+
+:: title ::
+
+# 📦 Amazon's AI Infrastructure
+
+:: left ::
+
+<div class="mb-6">
+  <div style="width: 80px; height: 80px; background: #FF9900; border-radius: 16px; margin: 0 auto 16px; display: flex; align-items: center; justify-content: center;">
+    <span style="color: white; font-weight: bold; font-size: 28px;">A</span>
+  </div>
+</div>
+
+**AWS + Retail Innovation:**
+- 🛒 **Alexa**: 100M+ devices using conversational AI
+- 📦 **Logistics**: AI-optimized warehouse operations
+- ☁️ **AWS Bedrock**: Enterprise LLM platform
+- 🛍️ **Recommendations**: Personalized shopping at scale
+
+:: right ::
+
+<div class="bg-orange-50 p-6 rounded-lg">
+  <div class="text-xl font-bold text-orange-800 mb-4">⚙️ Enterprise Prompting</div>
+  
+  ```
+  Amazon's Approach:
+  
+  Customer Service:
+  "Analyze customer complaint:
+   [complaint text]
+   
+   Provide:
+   1. Sentiment classification
+   2. Issue category
+   3. Recommended resolution
+   4. Escalation priority"
+   
+  Multi-step reasoning with validation
+  ```
+  
+  <div class="text-sm text-orange-600 mt-4">
+    <strong>Business Result:</strong> 40% reduction in customer service resolution time
+  </div>
+</div>
+
+---
+layout: two-cols-title
+columns: is-6
+align: c-lt-lt
+color: cyan-light
+---
+
+:: title ::
+
+# 🤖 Anthropic's Safety-First AI
+
+:: left ::
+
+<div class="mb-6">
+  <div style="width: 80px; height: 80px; background: #D97706; border-radius: 16px; margin: 0 auto 16px; display: flex; align-items: center; justify-content: center;">
+    <span style="color: white; font-weight: bold; font-size: 20px;">Aₙ</span>
+  </div>
+</div>
+
+**Constitutional AI Leadership:**
+- 🛡️ **Claude**: Enterprise-grade safety & reasoning
+- 🔬 **Research**: Constitutional AI methodology
+- 🏢 **Enterprise**: High-stakes decision support
+- 📚 **Education**: Advanced reasoning for complex tasks
+
+:: right ::
+
+<div class="bg-cyan-50 p-6 rounded-lg">
+  <div class="text-xl font-bold text-cyan-800 mb-4">🎯 Constitutional Prompting</div>
+  
+  ```
+  Anthropic's Method:
+  
+  1. Initial Prompt:
+     "Analyze this legal document..."
+     
+  2. Constitutional Check:
+     "Is this response helpful, 
+      harmless, and honest?"
+      
+  3. Self-Correction:
+     "Revise to be more accurate..."
+     
+  Multi-layer safety validation
+  ```
+  
+  <div class="text-sm text-cyan-600 mt-4">
+    <strong>Reliability:</strong> 95%+ accuracy on complex reasoning tasks
+  </div>
+</div>
+
+---
+layout: top-title
 color: sky-light
 align: c
 ---
@@ -344,6 +701,342 @@ align: c
   <div class="text-xl font-bold text-blue-700 mb-2">💡 Key Insight</div>
   <div class="text-lg text-blue-600">
     LLMs don't "know" facts - they predict the most likely next word based on patterns
+  </div>
+</div>
+
+---
+layout: top-title
+color: purple-light
+align: c
+---
+
+:: title ::
+
+# 🏗️ Transformer Architecture: The Engine Behind AI
+
+:: content ::
+
+<div class="text-center mb-6">
+  <div class="text-2xl font-semibold mb-4">From Text Input to Prediction</div>
+</div>
+
+```
+INPUT TEXT: "The future of AI is"
+     ↓
+┌─────────────────────────────────────────────────────────┐
+│  TOKENIZATION: ["The", "future", "of", "AI", "is"]     │
+│  TOKEN IDs: [464, 2003, 286, 14371, 318]              │
+└─────────────────────────────────────────────────────────┘
+     ↓
+┌─────────────────────────────────────────────────────────┐
+│  EMBEDDING LAYER                                        │
+│  Each token → 768-dimensional vector                   │
+│  + Positional encoding (where in sequence)            │
+└─────────────────────────────────────────────────────────┘
+     ↓
+┌─────────────────────────────────────────────────────────┐
+│  TRANSFORMER BLOCKS (12 layers)                        │
+│  ┌───────────────────────────────────────────────────┐ │
+│  │  Multi-Head Attention (12 heads)                 │ │
+│  │  - Query, Key, Value matrices                    │ │
+│  │  - Self-attention: tokens "talk" to each other   │ │
+│  └───────────────────────────────────────────────────┘ │
+│  ┌───────────────────────────────────────────────────┐ │
+│  │  Feed Forward Network                             │ │
+│  │  768 → 3072 → 768 dimensions                    │ │
+│  └───────────────────────────────────────────────────┘ │
+└─────────────────────────────────────────────────────────┘
+     ↓
+┌─────────────────────────────────────────────────────────┐
+│  OUTPUT LAYER                                           │
+│  Final 768-dim vector → 50,257 probabilities          │
+│  Each probability = likelihood of next word            │
+└─────────────────────────────────────────────────────────┘
+     ↓
+OUTPUT: "promising" (highest probability: 0.23)
+```
+
+<div class="mt-6 text-center text-gray-600">
+  Each layer refines understanding, building from syntax to meaning to context
+</div>
+
+---
+layout: top-title
+color: indigo-light
+align: c
+---
+
+:: title ::
+
+# 🎯 Attention Mechanism: How AI "Focuses"
+
+:: content ::
+
+<div class="text-center mb-6">
+  <div class="text-2xl font-semibold mb-2">Self-Attention in Action</div>
+  <div class="text-lg text-gray-600">Example: "The cat sat on the mat"</div>
+</div>
+
+<div class="grid grid-cols-2 gap-8">
+  <div class="bg-blue-50 p-6 rounded-lg">
+    <div class="text-xl font-bold text-blue-700 mb-4">🔍 Step 1: Create Q, K, V</div>
+    ```
+    For each word, create:
+    
+    Query (Q):  "What am I looking for?"
+    Key (K):    "What do I represent?"
+    Value (V):  "What information do I carry?"
+    
+    Example for "cat":
+    Q_cat = [0.2, 0.8, 0.1, ...] (768 dimensions)
+    K_cat = [0.5, 0.3, 0.9, ...]
+    V_cat = [0.7, 0.4, 0.6, ...]
+    ```
+  </div>
+  
+  <div class="bg-green-50 p-6 rounded-lg">
+    <div class="text-xl font-bold text-green-700 mb-4">⚡ Step 2: Calculate Attention</div>
+    ```
+    Attention Score = Q · K^T
+    
+    How much should "cat" pay attention to:
+    - "The":  0.1  (low - just an article)
+    - "cat":  0.9  (high - self-reference)
+    - "sat":  0.7  (high - related action)
+    - "on":   0.2  (medium - relationship)
+    - "mat":  0.4  (medium - object of action)
+    
+    After softmax: [0.05, 0.45, 0.35, 0.10, 0.15]
+    ```
+  </div>
+</div>
+
+<div class="mt-6 p-6 bg-yellow-50 rounded-lg">
+  <div class="text-xl font-bold text-yellow-700 mb-3">🎭 Step 3: Weighted Combination</div>
+  <div class="text-center">
+    ```
+    Final representation of "cat" = 
+    0.05×V_The + 0.45×V_cat + 0.35×V_sat + 0.10×V_on + 0.15×V_mat
+    
+    Result: Rich representation that includes context from all related words
+    ```
+  </div>
+</div>
+
+---
+layout: top-title
+color: emerald-light
+align: c
+---
+
+:: title ::
+
+# 🔄 How LLMs Generate Text: The Thinking Process
+
+:: content ::
+
+<div class="text-center mb-6">
+  <div class="text-2xl font-semibold mb-2">From Prompt to Response</div>
+  <div class="text-lg text-gray-600">Step-by-step text generation</div>
+</div>
+
+```
+PROMPT: "Explain quantum computing in simple terms"
+
+┌─────────────────────────────────────────────────────────────────┐
+│ STEP 1: Process Input                                           │
+│ • Tokenize prompt                                               │
+│ • Convert to embeddings                                         │
+│ • Run through all transformer layers                           │
+│ Result: Rich representation of input meaning                    │
+└─────────────────────────────────────────────────────────────────┘
+                              ↓
+┌─────────────────────────────────────────────────────────────────┐
+│ STEP 2: Predict Next Token                                     │
+│ Top predictions:                                                │
+│ • "Quantum"    : 0.31 ← Highest probability                   │
+│ • "Imagine"    : 0.18                                          │
+│ • "Think"      : 0.15                                          │
+│ • "Unlike"     : 0.12                                          │
+│ Selection: "Quantum" (using temperature sampling)              │
+└─────────────────────────────────────────────────────────────────┘
+                              ↓
+┌─────────────────────────────────────────────────────────────────┐
+│ STEP 3: Update Context                                         │
+│ New input: "Explain quantum computing in simple terms Quantum" │
+│ Re-process entire sequence through transformer                  │
+│ Attention now includes relationship to "Quantum"               │
+└─────────────────────────────────────────────────────────────────┘
+                              ↓
+┌─────────────────────────────────────────────────────────────────┐
+│ STEP 4: Predict Next Token                                     │
+│ Top predictions:                                                │
+│ • "computing"  : 0.45 ← Clear winner                          │
+│ • "mechanics"  : 0.23                                          │
+│ • "physics"    : 0.18                                          │
+│ Continue until stopping condition...                           │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+<div class="mt-6 p-6 bg-purple-50 rounded-lg text-center">
+  <div class="text-xl font-bold text-purple-700 mb-2">🧠 Key Insight</div>
+  <div class="text-lg text-purple-600">
+    Each word is predicted based on ALL previous words + learned patterns from training
+  </div>
+</div>
+
+---
+layout: top-title-two-cols
+align: c-lt-lt
+columns: is-6
+color: amber-light
+---
+
+:: title ::
+
+# ⚙️ Training vs Inference: Two Different Modes
+
+:: left ::
+
+## 🏋️ Training Phase
+```
+MASSIVE DATASET
+"The cat sat on the mat"
+        ↓
+Predict: "cat" → Model guesses: "dog" ❌
+         Calculate error
+         Adjust 175B parameters
+         
+"sat" → Model guesses: "ran" ❌
+        Calculate error  
+        Adjust parameters
+        
+Repeat trillions of times
+Result: Pattern recognition
+```
+
+**Objective:** Learn language patterns
+**Time:** Months of computation
+**Cost:** Millions of dollars
+**Data:** Trillions of words
+
+:: right ::
+
+## 🚀 Inference Phase
+```
+USER PROMPT
+"Write a poem about AI"
+        ↓
+Use learned patterns
+No parameter updates
+        
+Generate: "In circuits bright..."
+Predict each word using
+existing knowledge
+        
+Speed: Milliseconds per word
+Cost: Pennies per request
+```
+
+**Objective:** Generate helpful text
+**Time:** Seconds
+**Cost:** Very low
+**Data:** Just your prompt
+
+<div class="mt-6 p-4 bg-orange-50 rounded-lg">
+  <div class="text-center font-bold text-orange-700">
+    🎯 You interact with the inference phase - the "thinking" is already baked in!
+  </div>
+</div>
+
+---
+layout: top-title
+color: red-light
+align: c
+---
+
+:: title ::
+
+# 🎭 Understanding AI "Intelligence" vs Human Intelligence
+
+:: content ::
+
+<div class="grid grid-cols-2 gap-8 mt-6">
+  <div class="p-6 bg-blue-50 rounded-lg">
+    <div class="text-2xl font-bold text-blue-700 mb-4">🤖 How AI "Thinks"</div>
+    <div class="space-y-3 text-blue-600">
+      <div class="flex items-start">
+        <div class="text-lg mr-2">📊</div>
+        <div>
+          <div class="font-semibold">Statistical Pattern Matching</div>
+          <div class="text-sm">"This combination of words typically leads to..."</div>
+        </div>
+      </div>
+      <div class="flex items-start">
+        <div class="text-lg mr-2">🔢</div>
+        <div>
+          <div class="font-semibold">Probability Calculations</div>
+          <div class="text-sm">175 billion parameters working simultaneously</div>
+        </div>
+      </div>
+      <div class="flex items-start">
+        <div class="text-lg mr-2">📚</div>
+        <div>
+          <div class="font-semibold">Training Data Synthesis</div>
+          <div class="text-sm">Combines patterns from millions of examples</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="p-6 bg-green-50 rounded-lg">
+    <div class="text-2xl font-bold text-green-700 mb-4">🧠 How Humans Think</div>
+    <div class="space-y-3 text-green-600">
+      <div class="flex items-start">
+        <div class="text-lg mr-2">💭</div>
+        <div>
+          <div class="font-semibold">Conceptual Understanding</div>
+          <div class="text-sm">True comprehension of meaning and context</div>
+        </div>
+      </div>
+      <div class="flex items-start">
+        <div class="text-lg mr-2">🎯</div>
+        <div>
+          <div class="font-semibold">Intentional Goals</div>
+          <div class="text-sm">Conscious purpose and planning</div>
+        </div>
+      </div>
+      <div class="flex items-start">
+        <div class="text-lg mr-2">🌟</div>
+        <div>
+          <div class="font-semibold">Creative Intuition</div>
+          <div class="text-sm">Novel insights and breakthrough thinking</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="mt-8 p-6 bg-purple-50 rounded-lg">
+  <div class="text-center">
+    <div class="text-2xl font-bold text-purple-700 mb-4">🤝 The Power of Collaboration</div>
+    <div class="grid grid-cols-3 gap-4 text-purple-600">
+      <div class="text-center">
+        <div class="text-3xl mb-2">⚡</div>
+        <div class="font-semibold">AI Strengths</div>
+        <div class="text-sm">Pattern recognition, speed, consistency, memory</div>
+      </div>
+      <div class="text-center">
+        <div class="text-3xl mb-2">➕</div>
+        <div class="font-semibold">Combined</div>
+        <div class="text-sm">Amplified capabilities for both</div>
+      </div>
+      <div class="text-center">
+        <div class="text-3xl mb-2">🎯</div>
+        <div class="font-semibold">Human Strengths</div>
+        <div class="text-sm">Creativity, judgment, ethics, strategic thinking</div>
+      </div>
+    </div>
   </div>
 </div>
 
