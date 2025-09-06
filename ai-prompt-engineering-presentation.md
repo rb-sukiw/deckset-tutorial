@@ -166,321 +166,6 @@ align: c
 
 ---
 layout: top-title
-color: blue-light
-align: c
----
-
-:: title ::
-
-# 🤖 What is a Large Language Model?
-
-:: content ::
-
-<div class="text-center mb-8">
-  <div class="text-6xl mb-4">🧠 + 📚 + ⚡ = 🤖</div>
-  <div class="text-2xl font-semibold text-gray-700">Brain + Knowledge + Computation = LLM</div>
-</div>
-
-<div class="grid grid-cols-2 gap-8 mt-8">
-  <div class="p-6 bg-blue-50 rounded-lg">
-    <div class="text-xl font-bold text-blue-800 mb-4">🎯 Simple Definition</div>
-    <div class="text-blue-700 space-y-3">
-      <div>• AI system trained on vast amounts of text</div>
-      <div>• Learns patterns in human language</div>
-      <div>• Can generate human-like responses</div>
-      <div>• Understands context and nuance</div>
-    </div>
-  </div>
-  
-  <div class="p-6 bg-green-50 rounded-lg">
-    <div class="text-xl font-bold text-green-800 mb-4">🏗️ Think of it as...</div>
-    <div class="text-green-700 space-y-3">
-      <div>• A very sophisticated autocomplete</div>
-      <div>• That read most of the internet</div>
-      <div>• And learned to think step by step</div>
-      <div>• Like a universal text expert</div>
-    </div>
-  </div>
-</div>
-
-<div class="mt-6 text-center text-lg text-gray-600">
-  <strong>Key Insight:</strong> LLMs don't just memorize - they learn to reason with language
-</div>
-
----
-layout: two-cols-title
-columns: is-6
-align: c-lt-lt
-color: purple-light
----
-
-:: title ::
-
-# 🚀 The Transformer Revolution
-
-:: left ::
-
-<div class="text-center mb-6">
-  <div class="text-4xl mb-4">📅</div>
-  <div class="text-2xl font-bold">The Timeline</div>
-</div>
-
-**🏛️ 2017: "Attention is All You Need"**
-- Google researchers publish the Transformer paper
-- Revolutionary architecture for processing text
-
-**⚡ 2018-2019: BERT & GPT Era**
-- Bidirectional understanding (BERT)
-- Generative pre-training (GPT)
-
-**🎯 2020: GPT-3 Breakthrough**
-- 175 billion parameters
-- First truly capable language model
-
-**🌟 2022-2023: ChatGPT & Beyond**
-- Consumer AI revolution begins
-- GPT-4, Claude, Gemini emerge
-
-:: right ::
-
-## 🧠 Why Transformers Work
-
-**🔍 Attention Mechanism**
-- Focuses on relevant parts of text
-
-**⚡ Parallel Processing** 
-- Processes all words simultaneously
-
-**🎯 Context Understanding**
-- Sees relationships across entire text
-
-**📈 Scalable Architecture**
-- More data + compute = better performance
-
-> **Result:** First AI that truly "understands" language
-
----
-layout: top-title
-color: indigo-light
-align: c
----
-
-:: title ::
-
-# ⚙️ How Do Transformers Actually Work?
-
-:: content ::
-
-<div class="text-center mb-6">
-  <div class="text-2xl font-semibold text-gray-700">Think of it as a sophisticated pattern matching system</div>
-</div>
-
-<div class="bg-indigo-50 p-6 rounded-lg mb-6">
-  <div class="text-xl font-bold text-indigo-800 mb-4">🔄 The Process (Simplified)</div>
-  
-```python
-Input: "The cat sat on the ___"
-
-1. TOKENIZATION
-   "The" → [1043]  "cat" → [2543]  "sat" → [3021]  
-   "on" → [319]  "the" → [1043]
-
-2. ATTENTION MECHANISM
-   • Which words relate to which?
-   • "cat" ← relates to → "sat" (subject-verb)
-   • "sat" ← relates to → "on" (verb-preposition) 
-   • "on" ← relates to → "the ___" (preposition-object)
-
-3. PATTERN MATCHING
-   • Learned: "X sat on the Y" → Y is usually a surface/object
-   • Common completions: mat, floor, chair, table...
-
-4. PROBABILITY DISTRIBUTION
-   mat: 0.35    floor: 0.28    chair: 0.15    table: 0.12    other: 0.10
-```
-</div>
-
-<div class="grid grid-cols-3 gap-4 mt-6">
-  <div class="text-center">
-    <div class="text-3xl mb-2">🎯</div>
-    <div class="text-sm font-semibold">Attention</div>
-    <div class="text-xs text-gray-600">What to focus on</div>
-  </div>
-  <div class="text-center">
-    <div class="text-3xl mb-2">🧮</div>
-    <div class="text-sm font-semibold">Computation</div>
-    <div class="text-xs text-gray-600">Process relationships</div>
-  </div>
-  <div class="text-center">
-    <div class="text-3xl mb-2">📊</div>
-    <div class="text-sm font-semibold">Prediction</div>
-    <div class="text-xs text-gray-600">Generate next word</div>
-  </div>
-</div>
-
----
-layout: two-cols-title
-columns: is-6
-align: c-lt-lt
-color: green-light
----
-
-:: title ::
-
-# 🏗️ From Training to Your Conversation
-
-:: left ::
-
-<div class="text-center mb-4">
-  <div class="text-2xl font-bold">📚 Training Phase</div>
-</div>
-
-**1. Data Collection**
-- Crawl billions of web pages
-- Books, articles, code repositories
-- Filter for quality content
-
-**2. Pre-training**
-- Learn to predict next word
-- "The quick brown fox ___" → "jumps"
-- Develops general language understanding
-
-**3. Fine-tuning**
-- Human feedback training
-- Learn helpful, harmless responses
-- Instruction following capabilities
-
-**4. Alignment**
-- Constitutional AI methods
-- Safety and ethics training
-- Reduce harmful outputs
-
-:: right ::
-
-## ⚡ When You Chat with an LLM
-
-**Step 1: You ask a question**
-```
-"Explain photosynthesis"
-```
-
-**Step 2: Model breaks it down**
-- Processes each word and context
-- Attention mechanism activates 
-- Identifies this is a science explanation request
-
-**Step 3: Generates response word by word**
-```
-"Photosynthesis" → "is" → "the" → "process..."
-```
-
-**Step 4: Complete answer appears**
-- Coherent, contextual response
-- Based on patterns from training data
-
----
-layout: top-title
-color: red-light
-align: c
----
-
-:: title ::
-
-# 🚫 Why LLM Models Fail at Reasoning
-
-:: content ::
-
-<div class="text-center mb-6">
-  <img src="/Users/sukiwang/Desktop/AI course/1756042777605.jpeg" alt="Small LLM reasoning failure example" class="mx-auto max-w-xl rounded-lg shadow-xl border-2 border-gray-300">
-</div>
-
----
-layout: top-title
-color: red-light
-align: c
----
-
-:: title ::
-
-# Pitfall of Small and Weak LLM Models
-
-:: content :: 
-
-<div class="grid grid-cols-2 gap-8 mt-8">
-  <div class="bg-blue-50 p-6 rounded-lg">
-    <div class="text-xl font-bold text-red-800 mb-3">🧠 Cognitive Limitations</div>
-    <div class="text-red-700">
-      • Limited parameter count affects reasoning depth<br>
-      • Struggles with multi-step logical processes<br>
-      • Confuses pattern matching with true reasoning
-    </div>
-  </div>
-  
-  <div class="bg-teal-50 p-6 rounded-lg">
-    <div class="text-xl font-bold text-orange-800 mb-3">📊 Scale Matters</div>
-    <div class="text-orange-700">
-      • Emergent abilities appear at larger scales<br>
-      • Quality training data becomes crucial<br>
-      • Context window limitations impact understanding
-    </div>
-  </div>
-</div>
-
----
-layout: top-title
-color: orange-light
-align: c
----
-
-:: title ::
-
-# 🎯 Why This Matters for Prompt Engineering
-
-:: content ::
-
-<div class="text-center mb-6">
-  <div class="text-2xl font-semibold text-gray-700">Understanding how LLMs work helps you use them better</div>
-</div>
-
-<div class="grid grid-cols-2 gap-8">
-  <div class="p-6 bg-orange-50 rounded-lg">
-    <div class="text-xl font-bold text-orange-800 mb-4">🧠 Mental Model</div>
-    <div class="text-orange-700 space-y-3">
-      <div><strong>LLMs are prediction machines</strong></div>
-      <div>→ Give clear context for better predictions</div>
-      <div><strong>They use attention mechanisms</strong></div>
-      <div>→ Structure prompts to guide attention</div>
-      <div><strong>They think step by step</strong></div>
-      <div>→ Ask for reasoning processes</div>
-      <div><strong>They learned from examples</strong></div>
-      <div>→ Provide examples in your prompts</div>
-    </div>
-  </div>
-  
-  <div class="p-6 bg-blue-50 rounded-lg">
-    <div class="text-xl font-bold text-blue-800 mb-4">⚡ Practical Implications</div>
-    <div class="text-blue-700 space-y-3">
-      <div><strong>Specificity matters</strong></div>
-      <div>→ "Explain like I'm a grad student" vs "Explain simply"</div>
-      <div><strong>Context shapes responses</strong></div>
-      <div>→ Set role, tone, format explicitly</div>
-      <div><strong>Examples are powerful</strong></div>
-      <div>→ Few-shot prompting works</div>
-      <div><strong>Iteration improves results</strong></div>
-      <div>→ Refine prompts based on outputs</div>
-    </div>
-  </div>
-</div>
-
-<div class="mt-8 p-6 bg-gradient-to-r from-orange-50 to-blue-50 rounded-lg text-center">
-  <div class="text-xl font-bold text-gray-800 mb-2">🎓 Ready to Master Prompt Engineering?</div>
-  <div class="text-lg text-gray-600">
-    Now that you understand the foundation, let's see how the world's leading companies are using this technology...
-  </div>
-</div>
-
----
-layout: top-title
 color: emerald-light
 align: c
 ---
@@ -529,9 +214,16 @@ align: c
   </div>
 </div>
 
-<div class="text-center mt-6 text-lg font-semibold text-gray-700">
-  💡 These aren't future plans - they're deployed at scale today
-</div>
+```
+
+
+
+2021                 2022                     2023
+┌────────────────────┬────────────────────────┬──────────────────────────→
+        Jun ▲                Nov ▲                    Feb ▲      Mar ▲
+        🤖 GitHub Copilot    🚀 ChatGPT Launch         🦙 Meta LLaMA  🔍 Google Bard
+
+```
 
 ---
 layout: two-cols-title
@@ -844,43 +536,25 @@ align: c
 
 :: title ::
 
-# 🌊 The AI Tsunami is Here
+# 🌊 The Agents are Here
 
 :: content ::
 
-<div class="text-center mb-8">
-  <div class="text-4xl mb-4">⚠️ 💼 📈 🎓</div>
-  <div class="text-2xl font-bold text-gray-700">Your field will change fundamentally in the next 2-3 years</div>
-</div>
 
-<div class="grid grid-cols-2 gap-8 mt-6">
-  <div class="p-6 bg-red-50 rounded-lg border-l-4 border-red-400">
-    <div class="text-xl font-bold text-red-700 mb-3">⚠️ The Reality</div>
-    <div class="text-red-600 space-y-2">
-      <div>• AI tools are already transforming research</div>
-      <div>• Traditional coding workflows becoming obsolete</div>
-      <div>• Data analysis is being automated</div>
-      <div>• Writing and documentation changing rapidly</div>
-    </div>
-  </div>
+
   
-  <div class="p-6 bg-blue-50 rounded-lg border-l-4 border-blue-400">
-    <div class="text-xl font-bold text-blue-700 mb-3">💪 The Solution</div>
-    <div class="text-blue-600 space-y-2">
-      <div>• Master human-AI collaboration</div>
-      <div>• Learn to direct AI effectively</div>
-      <div>• Become an AI-powered researcher</div>
-      <div>• Stay ahead of the curve</div>
-    </div>
-  </div>
+<div class="p-6 bg-blue-50 rounded-lg border-l-4 border-blue-400">
+ <div class="text-xl font-bold text-blue-700 mb-3">💪 What AI skills are needed in the industry</div>
+ <div class="text-blue-600 space-y-2">
+   <div>• Master human-AI collaboration</div>
+   <div>• Learn to direct AI effectively</div>
+   <div>• Become an AI-powered researcher</div>
+   <div>• Stay ahead of the curve</div>
+ </div>
 </div>
 
-<div class="mt-8 p-6 bg-gradient-to-r from-purple-50 to-pink-50 rounded-lg text-center">
-  <div class="text-xl font-bold text-purple-700 mb-2">🎯 This Course Will Teach You</div>
-  <div class="text-lg text-purple-600">
-    How to become the person who leverages AI instead of being replaced by it
-  </div>
-</div>
+
+
 
 ---
 layout: center
@@ -958,7 +632,7 @@ align: c
 
 <div class="text-center mb-8">
   <div class="text-4xl mb-4">💼 → 🤖 → 🎆</div>
-  <div class="text-2xl font-semibold text-gray-700">Career Success = AI Collaboration Skills</div>
+  <div class="text-2xl font-semibold text-gray-700">Future Workforce = AI Collaboration Skills</div>
 </div>
 
 <div class="grid grid-cols-3 gap-6 mt-6">
@@ -996,12 +670,6 @@ align: c
   </div>
 </div>
 
-<div class="mt-8 p-6 bg-blue-50 rounded-lg text-center">
-  <div class="text-xl font-bold text-blue-700 mb-2">💡 The Bottom Line</div>
-  <div class="text-lg text-blue-600">
-    Prompt engineering is the new "digital literacy" - essential for any knowledge worker
-  </div>
-</div>
 
 <!--
 Key concepts to cover:
@@ -1018,52 +686,150 @@ Interactive element: Show attention visualization, demonstrate how the model "pa
 -->
 
 ---
+layout: section
+color: primary
+---
+
+# Part II
+
+## Large Language Models
+### Understanding the Fundamentals
+
+---
 layout: top-title
-color: emerald-light
+color: blue-light
 align: c
 ---
 
 :: title ::
 
-# 🤖 What Are Large Language Models?
+# 🤖 What is a Large Language Model?
 
 :: content ::
 
-<div class="text-center">
-  <div class="brain-animation mb-8 flex items-center justify-center">
-    <div class="text-4xl">🧠 → 🔄 → 💬 → ✨</div>
+<div class="text-center mb-8">
+  <div class="text-6xl mb-4">🧠 + 📚 + ⚡ = 🤖</div>
+  <div class="text-2xl font-semibold text-gray-700">Brain + Knowledge + Computation = LLM</div>
+</div>
+
+<div class="grid grid-cols-2 gap-8 mt-8">
+  <div class="p-6 bg-blue-50 rounded-lg">
+    <div class="text-xl font-bold text-blue-800 mb-4">🎯 Simple Definition</div>
+    <div class="text-blue-700 space-y-3">
+      <div>• AI system trained on vast amounts of text</div>
+      <div>• Learns patterns in human language</div>
+      <div>• Can generate human-like responses</div>
+      <div>• Understands context and nuance</div>
+    </div>
   </div>
   
-  <div class="text-2xl mb-6">
-    <span class="gradient-text">The Technology Behind AI Revolution</span>
+  <div class="p-6 bg-green-50 rounded-lg">
+    <div class="text-xl font-bold text-green-800 mb-4">🏗️ Think of it as...</div>
+    <div class="text-green-700 space-y-3">
+      <div>• A very sophisticated autocomplete</div>
+      <div>• That read most of the internet</div>
+      <div>• And learned to think step by step</div>
+      <div>• Like a universal text expert</div>
+    </div>
   </div>
 </div>
 
-<div class="grid grid-cols-3 gap-6 mt-6">
-  <div class="text-center p-4 tech-glow rounded-lg">
-    <div class="text-3xl mb-2">📚</div>
-    <div class="text-lg font-semibold">Trained on Text</div>
-    <div class="text-sm text-gray-600">Learned from billions of documents</div>
-  </div>
-  
-  <div class="text-center p-4 tech-glow rounded-lg">
-    <div class="text-3xl mb-2">🧠</div>
-    <div class="text-lg font-semibold">Pattern Recognition</div>
-    <div class="text-sm text-gray-600">Understands language structures</div>
-  </div>
-  
-  <div class="text-center p-4 tech-glow rounded-lg">
-    <div class="text-3xl mb-2">🗣️</div>
-    <div class="text-lg font-semibold">Human-like Responses</div>
-    <div class="text-sm text-gray-600">Generates contextual answers</div>
-  </div>
+<div class="mt-6 text-center text-lg text-gray-600">
+  <strong>Key Insight:</strong> LLMs don't just memorize - they learn to reason with language
+
+
+
+---
+layout: two-cols-title
+columns: is-6
+align: c-lt-lt
+color: purple-light
+---
+
+:: title ::
+
+# 🚀 The Transformer Revolution
+
+:: left ::
+
+<div class="text-center mb-6">
+  <div class="text-2xl font-bold">📅The Timeline</div>
 </div>
 
-<div class="mt-8 p-6 bg-blue-50 rounded-lg text-center">
-  <div class="text-xl font-bold text-blue-700 mb-2">💡 Key Insight</div>
-  <div class="text-lg text-blue-600">
-    LLMs don't "know" facts - they predict the most likely next word based on patterns
-  </div>
+**🏛️ 2017: "Attention is All You Need"**
+- Google researchers publish the Transformer paper
+- Revolutionary architecture for processing text
+
+**⚡ 2018-2019: BERT & GPT Era**
+- Bidirectional understanding (BERT)
+- Generative pre-training (GPT)
+
+**🎯 2020: GPT-3 Breakthrough**
+- 175 billion parameters
+- First truly capable language model
+
+**🌟 2022-2023: ChatGPT & Beyond**
+- Consumer AI revolution begins
+- GPT-4, Claude, Gemini emerge
+
+:: right ::
+
+## 🧠 Why Transformers Work
+
+**🔍 Attention Mechanism**
+- Focuses on relevant parts of text
+
+**⚡ Parallel Processing** 
+- Processes all words simultaneously
+
+**🎯 Context Understanding**
+- Sees relationships across entire text
+
+**📈 Scalable Architecture**
+- More data + compute = better performance
+
+> **Result:** First AI that truly "understands" language
+
+
+---
+layout: top-title
+color: purple-light
+align: c
+---
+
+:: title ::
+
+# ⚙️ How Do Transformers Actually Work?
+
+:: content ::
+
+<div class="text-center mb-6">
+  <div class="text-2xl font-semibold text-gray-700">Think of it as a sophisticated pattern matching system</div>
+</div>
+
+<div class="bg-indigo-50 p-6 rounded-lg mb-6">
+  <div class="text-xl font-bold text-indigo-800 mb-4">🔄 The Process (Simplified)</div>
+  
+```python
+Input: "The cat sat on the ___"
+
+1. TOKENIZATION
+   "The" → [1043]  "cat" → [2543]  "sat" → [3021]  
+   "on" → [319]  "the" → [1043]
+
+2. ATTENTION MECHANISM
+   • Which words relate to which?
+   • "cat" ← relates to → "sat" (subject-verb)
+   • "sat" ← relates to → "on" (verb-preposition) 
+   • "on" ← relates to → "the ___" (preposition-object)
+
+3. PATTERN MATCHING
+   • Learned: "X sat on the Y" → Y is usually a surface/object
+   • Common completions: mat, floor, chair, table...
+
+4. PROBABILITY DISTRIBUTION
+   mat: 0.35    floor: 0.28    chair: 0.15    table: 0.12    other: 0.10
+```
 </div>
 
 ---
@@ -1074,13 +840,9 @@ align: c
 
 :: title ::
 
-# 🏗️ Transformer Architecture: The Engine Behind AI
+# 🏗️From Text Input to Prediction
 
 :: content ::
-
-<div class="text-center mb-6">
-  <div class="text-2xl font-semibold mb-4">From Text Input to Prediction</div>
-</div>
 
 ```
 INPUT TEXT: "The future of AI is"
@@ -1121,6 +883,170 @@ OUTPUT: "promising" (highest probability: 0.23)
 <div class="mt-6 text-center text-gray-600">
   Each layer refines understanding, building from syntax to meaning to context
 </div>
+
+
+
+---
+layout: two-cols-title
+columns: is-6
+color: green-light
+---
+
+:: title ::
+
+# 🏗️ From Training to Your Conversation
+
+:: left ::
+
+<div class="text-center mb-4">
+  <div class="text-2xl font-bold">📚 Training Phase</div>
+</div>
+
+**1. Data Collection**
+- Crawl billions of web pages
+- Books, articles, code repositories
+- Filter for quality content
+
+**2. Pre-training**
+- Learn to predict next word
+- "The quick brown fox ___" → "jumps"
+- Develops general language understanding
+
+**3. Fine-tuning**
+- Human feedback training
+- Learn helpful, harmless responses
+- Instruction following capabilities
+
+**4. Alignment**
+- Constitutional AI methods
+- Safety and ethics training
+- Reduce harmful outputs
+
+:: right ::
+
+## ⚡ When You Chat with an LLM
+
+**Step 1: You ask a question**
+```
+"Explain photosynthesis"
+```
+
+**Step 2: Model breaks it down**
+- Processes each word and context
+- Attention mechanism activates 
+- Identifies this is a science explanation request
+
+**Step 3: Generates response word by word**
+```
+"Photosynthesis" → "is" → "the" → "process..."
+```
+
+**Step 4: Complete answer appears**
+- Coherent, contextual response
+- Based on patterns from training data
+
+---
+layout: top-title
+color: red-light
+align: c
+---
+
+:: title ::
+
+# 🚫 Why LLM Models Fail at Reasoning
+
+:: content ::
+
+<div class="text-center mb-6">
+  <img src="/Users/sukiwang/Desktop/AI course/1756042777605.jpeg" alt="Small LLM reasoning failure example" class="mx-auto max-w-xl rounded-lg shadow-xl border-2 border-gray-300">
+</div>
+
+---
+layout: top-title
+color: red-light
+align: c
+---
+
+:: title ::
+
+# Pitfall of Small and Weak LLM Models
+
+:: content :: 
+
+<div class="grid grid-cols-2 gap-8 mt-8">
+  <div class="bg-blue-50 p-6 rounded-lg">
+    <div class="text-xl font-bold text-red-800 mb-3">🧠 Cognitive Limitations</div>
+    <div class="text-red-700">
+      • Limited parameter count affects reasoning depth<br>
+      • Struggles with multi-step logical processes<br>
+      • Confuses pattern matching with true reasoning
+    </div>
+  </div>
+  
+  <div class="bg-teal-50 p-6 rounded-lg">
+    <div class="text-xl font-bold text-orange-800 mb-3">📊 Scale Matters</div>
+    <div class="text-orange-700">
+      • Emergent abilities appear at larger scales<br>
+      • Quality training data becomes crucial<br>
+      • Context window limitations impact understanding
+    </div>
+  </div>
+</div>
+
+---
+layout: top-title
+color: orange-light
+align: c
+---
+
+:: title ::
+
+# 🎯 Why This Matters for Prompt Engineering
+
+:: content ::
+
+<div class="text-center mb-6">
+  <div class="text-2xl font-semibold text-gray-700">Understanding how LLMs work helps you use them better</div>
+</div>
+
+<div class="grid grid-cols-2 gap-8">
+  <div class="p-6 bg-orange-50 rounded-lg">
+    <div class="text-xl font-bold text-orange-800 mb-4">🧠 Mental Model</div>
+    <div class="text-orange-700 space-y-3">
+      <div><strong>LLMs are prediction machines</strong></div>
+      <div>→ Give clear context for better predictions</div>
+      <div><strong>They use attention mechanisms</strong></div>
+      <div>→ Structure prompts to guide attention</div>
+      <div><strong>They think step by step</strong></div>
+      <div>→ Ask for reasoning processes</div>
+      <div><strong>They learned from examples</strong></div>
+      <div>→ Provide examples in your prompts</div>
+    </div>
+  </div>
+  
+  <div class="p-6 bg-blue-50 rounded-lg">
+    <div class="text-xl font-bold text-blue-800 mb-4">⚡ Practical Implications</div>
+    <div class="text-blue-700 space-y-3">
+      <div><strong>Specificity matters</strong></div>
+      <div>→ "Explain like I'm a grad student" vs "Explain simply"</div>
+      <div><strong>Context shapes responses</strong></div>
+      <div>→ Set role, tone, format explicitly</div>
+      <div><strong>Examples are powerful</strong></div>
+      <div>→ Few-shot prompting works</div>
+      <div><strong>Iteration improves results</strong></div>
+      <div>→ Refine prompts based on outputs</div>
+    </div>
+  </div>
+</div>
+
+<div class="mt-8 p-6 bg-gradient-to-r from-orange-50 to-blue-50 rounded-lg text-center">
+  <div class="text-xl font-bold text-gray-800 mb-2">🎓 Ready to Master Prompt Engineering?</div>
+  <div class="text-lg text-gray-600">
+    Now that you understand the foundation, let's see how the world's leading companies are using this technology...
+  </div>
+</div>
+
+
 
 ---
 layout: top-title
